@@ -1,0 +1,959 @@
+2019-01-23 metrics.py[line:156] Added sensor with name connections-closed
+2019-01-23 metrics.py[line:156] Added sensor with name connections-created
+2019-01-23 metrics.py[line:156] Added sensor with name select-time
+2019-01-23 metrics.py[line:156] Added sensor with name io-time
+2019-01-23 client_async.py[line:224] Bootstrapping cluster metadata from [('127.0.0.1', 9092, <AddressFamily.AF_INET: 2>)]
+2019-01-23 client_async.py[line:241] Attempting to bootstrap via node at 127.0.0.1:9092
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-sent-received
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name request-latency
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.latency
+2019-01-23 conn.py[line:257] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: creating new socket
+2019-01-23 conn.py[line:303] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: setting socket option (6, 1, 1)
+2019-01-23 conn.py[line:309] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+2019-01-23 conn.py[line:331] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: established TCP connection
+2019-01-23 conn.py[line:340] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: Connection complete.
+2019-01-23 client_async.py[line:296] Node bootstrap connected
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092> Request 1: MetadataRequest_v0(topics=[])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092> Response 1: MetadataResponse_v0(brokers=[(node_id=0, host='192.168.7.121', port=9092)], topics=[(error_code=0, topic='__consumer_offsets', partitions=[(error_code=0, partition=23, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=41, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=32, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=8, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=17, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=44, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=35, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=26, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=11, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=29, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=38, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=47, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=20, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=2, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=5, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=14, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=46, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=49, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=40, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=4, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=13, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=22, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=31, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=16, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=7, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=43, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=25, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=34, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=10, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=37, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=1, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=19, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=28, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=45, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=36, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=27, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=9, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=18, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=21, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=48, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=12, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=3, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=30, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=39, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=15, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=42, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=24, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=33, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=6, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=0, leader=0, replicas=[0], isr=[0])]), (error_code=0, topic='test', partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])])])
+2019-01-23 cluster.py[line:289] Updated cluster metadata to ClusterMetadata(brokers: 1, topics: 2, groups: 0)
+2019-01-23 client_async.py[line:263] Bootstrap succeeded: found 1 brokers and 2 topics.
+2019-01-23 conn.py[line:628] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: Closing connection. 
+2019-01-23 conn.py[line:610] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: reconnect backoff 0.04333448758101221 after 1 failures
+2019-01-23 client_async.py[line:346] Initiating connection to node 0 at 192.168.7.121:9092
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.latency
+2019-01-23 conn.py[line:257] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: creating new socket
+2019-01-23 conn.py[line:303] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: setting socket option (6, 1, 1)
+2019-01-23 conn.py[line:309] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: connecting to 192.168.7.121:9092
+2019-01-23 client_async.py[line:296] Node 0 connected
+2019-01-23 conn.py[line:1006] Broker version identifed as 0.11.0
+2019-01-23 conn.py[line:1008] Set configuration api_version=(0, 11, 0) to skip auto check_version requests on startup
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-fetched
+2019-01-23 metrics.py[line:156] Added sensor with name records-fetched
+2019-01-23 metrics.py[line:156] Added sensor with name fetch-latency
+2019-01-23 metrics.py[line:156] Added sensor with name records-lag
+2019-01-23 metrics.py[line:156] Added sensor with name fetch-throttle-time
+2019-01-23 metrics.py[line:156] Added sensor with name heartbeat-latency
+2019-01-23 metrics.py[line:156] Added sensor with name join-latency
+2019-01-23 metrics.py[line:156] Added sensor with name sync-latency
+2019-01-23 consumer.py[line:104] group_id is None: disabling auto-commit.
+2019-01-23 metrics.py[line:156] Added sensor with name commit-latency
+2019-01-23 subscription_state.py[line:172] Updating subscribed topics to: ('test',)
+2019-01-23 client_async.py[line:745] Sending metadata request MetadataRequest_v1(topics=['test']) to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 3: MetadataRequest_v1(topics=['test'])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 3: MetadataResponse_v1(brokers=[(node_id=0, host='192.168.7.121', port=9092, rack=None)], controller_id=0, topics=[(error_code=0, topic='test', is_internal=False, partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])])])
+2019-01-23 cluster.py[line:289] Updated cluster metadata to ClusterMetadata(brokers: 1, topics: 1, groups: 0)
+2019-01-23 subscription_state.py[line:258] Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+2019-01-23 fetcher.py[line:229] Resetting offset for partition TopicPartition(topic='test', partition=0) to latest offset.
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 4: OffsetRequest_v1(replica_id=-1, topics=[(topic='test', partitions=[(partition=0, timestamp=-1)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 4: OffsetResponse_v1(topics=[(topic='test', partitions=[(partition=0, error_code=0, timestamp=-1, offset=105)])])
+2019-01-23 fetcher.py[line:736] Handling ListOffsetResponse response for TopicPartition(topic='test', partition=0). Fetched offset 105, timestamp -1
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 105
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 5: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=105, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 5: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=105, message_set=[])])])
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.bytes-fetched
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.records-fetched
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 105
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 6: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=105, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 6: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=105, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 105
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 7: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=105, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 7: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=105, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 105
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 8: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=105, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 8: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=105, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 105
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 9: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=105, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 9: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=105, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 105
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 10: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=105, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 10: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=105, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 105
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 11: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=105, max_bytes=1048576)])])
+2019-01-23 kafka.py[line:312] Starting the Kafka producer
+2019-01-23 metrics.py[line:156] Added sensor with name connections-closed
+2019-01-23 metrics.py[line:156] Added sensor with name connections-created
+2019-01-23 metrics.py[line:156] Added sensor with name select-time
+2019-01-23 metrics.py[line:156] Added sensor with name io-time
+2019-01-23 client_async.py[line:224] Bootstrapping cluster metadata from [('127.0.0.1', 9092, <AddressFamily.AF_INET: 2>)]
+2019-01-23 client_async.py[line:241] Attempting to bootstrap via node at 127.0.0.1:9092
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-sent-received
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name request-latency
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.latency
+2019-01-23 conn.py[line:257] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: creating new socket
+2019-01-23 conn.py[line:303] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: setting socket option (6, 1, 1)
+2019-01-23 conn.py[line:309] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+2019-01-23 conn.py[line:331] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: established TCP connection
+2019-01-23 conn.py[line:340] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: Connection complete.
+2019-01-23 client_async.py[line:296] Node bootstrap connected
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092> Request 1: MetadataRequest_v0(topics=[])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092> Response 1: MetadataResponse_v0(brokers=[(node_id=0, host='192.168.7.121', port=9092)], topics=[(error_code=0, topic='__consumer_offsets', partitions=[(error_code=0, partition=23, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=41, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=32, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=8, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=17, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=44, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=35, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=26, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=11, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=29, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=38, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=47, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=20, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=2, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=5, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=14, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=46, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=49, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=40, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=4, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=13, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=22, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=31, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=16, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=7, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=43, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=25, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=34, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=10, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=37, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=1, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=19, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=28, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=45, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=36, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=27, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=9, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=18, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=21, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=48, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=12, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=3, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=30, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=39, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=15, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=42, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=24, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=33, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=6, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=0, leader=0, replicas=[0], isr=[0])]), (error_code=0, topic='test', partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])])])
+2019-01-23 cluster.py[line:289] Updated cluster metadata to ClusterMetadata(brokers: 1, topics: 2, groups: 0)
+2019-01-23 client_async.py[line:263] Bootstrap succeeded: found 1 brokers and 2 topics.
+2019-01-23 conn.py[line:628] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: Closing connection. 
+2019-01-23 conn.py[line:610] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: reconnect backoff 0.04956138300709538 after 1 failures
+2019-01-23 client_async.py[line:346] Initiating connection to node 0 at 192.168.7.121:9092
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.latency
+2019-01-23 conn.py[line:257] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: creating new socket
+2019-01-23 conn.py[line:303] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: setting socket option (6, 1, 1)
+2019-01-23 conn.py[line:309] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: connecting to 192.168.7.121:9092
+2019-01-23 client_async.py[line:296] Node 0 connected
+2019-01-23 conn.py[line:1006] Broker version identifed as 0.11.0
+2019-01-23 conn.py[line:1008] Set configuration api_version=(0, 11, 0) to skip auto check_version requests on startup
+2019-01-23 metrics.py[line:156] Added sensor with name bufferpool-wait-time
+2019-01-23 metrics.py[line:156] Added sensor with name batch-size
+2019-01-23 metrics.py[line:156] Added sensor with name compression-rate
+2019-01-23 metrics.py[line:156] Added sensor with name queue-time
+2019-01-23 metrics.py[line:156] Added sensor with name produce-throttle-time
+2019-01-23 metrics.py[line:156] Added sensor with name records-per-request
+2019-01-23 metrics.py[line:156] Added sensor with name bytes
+2019-01-23 metrics.py[line:156] Added sensor with name record-retries
+2019-01-23 metrics.py[line:156] Added sensor with name errors
+2019-01-23 metrics.py[line:156] Added sensor with name record-size-max
+2019-01-23 sender.py[line:55] Starting Kafka producer I/O thread.
+2019-01-23 kafka.py[line:370] Kafka producer started
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c0\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c0\u6761\u4fe1\u606f"}
+2019-01-23 sender.py[line:109] Node 0 not ready; delaying produce of accumulated batch
+2019-01-23 client_async.py[line:745] Sending metadata request MetadataRequest_v1(topics=['test']) to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 3: MetadataRequest_v1(topics=['test'])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 3: MetadataResponse_v1(brokers=[(node_id=0, host='192.168.7.121', port=9092, rack=None)], controller_id=0, topics=[(error_code=0, topic='test', is_internal=False, partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])])])
+2019-01-23 cluster.py[line:289] Updated cluster metadata to ClusterMetadata(brokers: 1, topics: 1, groups: 0)
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.records-per-batch
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.bytes
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.compression-rate
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.record-retries
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.record-errors
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 4: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x1065d1d58>)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 4: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=105, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 11: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=106, message_set=['(offset=105, message=200)', '(offset=None, message=None)'])])])
+2019-01-23 fetcher.py[line:884] Adding fetched record for partition TopicPartition(topic='test', partition=0) with offset 105 to buffered record list
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=105, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 105 and error None.
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c1\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c1\u6761\u4fe1\u606f"}
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 5: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x1065d1ca8>)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 5: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=106, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=106, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 106 and error None.
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c2\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c2\u6761\u4fe1\u606f"}
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 6: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x1065d1db0>)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 6: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=107, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=107, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 107 and error None.
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c3\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c3\u6761\u4fe1\u606f"}
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 7: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x1065d1e08>)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 7: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=108, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=108, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 108 and error None.
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c4\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c4\u6761\u4fe1\u606f"}
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 8: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x1065d1e60>)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 8: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=109, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=109, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 109 and error None.
+2019-01-23 kafka.py[line:574] Flushing accumulated records in producer.
+2019-01-23 kafka.py[line:423] Closing the Kafka producer with 0 secs timeout.
+2019-01-23 kafka.py[line:443] Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2019-01-23 sender.py[line:64] Beginning shutdown of Kafka producer I/O thread, sending remaining records.
+2019-01-23 conn.py[line:628] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: Closing connection. 
+2019-01-23 conn.py[line:610] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: reconnect backoff 0.04866730051097486 after 1 failures
+2019-01-23 sender.py[line:88] Shutdown of Kafka producer I/O thread has completed.
+2019-01-23 kafka.py[line:459] The Kafka producer has closed.
+2019-01-23 metrics.py[line:156] Added sensor with name connections-closed
+2019-01-23 metrics.py[line:156] Added sensor with name connections-created
+2019-01-23 metrics.py[line:156] Added sensor with name select-time
+2019-01-23 metrics.py[line:156] Added sensor with name io-time
+2019-01-23 client_async.py[line:224] Bootstrapping cluster metadata from [('127.0.0.1', 9092, <AddressFamily.AF_INET: 2>)]
+2019-01-23 client_async.py[line:241] Attempting to bootstrap via node at 127.0.0.1:9092
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-sent-received
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name request-latency
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.latency
+2019-01-23 conn.py[line:257] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: creating new socket
+2019-01-23 conn.py[line:303] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: setting socket option (6, 1, 1)
+2019-01-23 conn.py[line:309] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+2019-01-23 conn.py[line:331] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: established TCP connection
+2019-01-23 conn.py[line:340] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: Connection complete.
+2019-01-23 client_async.py[line:296] Node bootstrap connected
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092> Request 1: MetadataRequest_v0(topics=[])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092> Response 1: MetadataResponse_v0(brokers=[(node_id=0, host='192.168.7.121', port=9092)], topics=[(error_code=0, topic='__consumer_offsets', partitions=[(error_code=0, partition=23, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=41, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=32, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=8, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=17, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=44, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=35, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=26, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=11, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=29, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=38, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=47, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=20, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=2, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=5, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=14, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=46, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=49, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=40, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=4, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=13, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=22, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=31, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=16, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=7, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=43, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=25, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=34, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=10, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=37, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=1, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=19, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=28, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=45, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=36, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=27, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=9, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=18, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=21, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=48, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=12, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=3, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=30, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=39, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=15, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=42, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=24, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=33, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=6, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=0, leader=0, replicas=[0], isr=[0])]), (error_code=0, topic='test', partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])])])
+2019-01-23 cluster.py[line:289] Updated cluster metadata to ClusterMetadata(brokers: 1, topics: 2, groups: 0)
+2019-01-23 client_async.py[line:263] Bootstrap succeeded: found 1 brokers and 2 topics.
+2019-01-23 conn.py[line:628] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: Closing connection. 
+2019-01-23 conn.py[line:610] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: reconnect backoff 0.057832939342702304 after 1 failures
+2019-01-23 client_async.py[line:346] Initiating connection to node 0 at 192.168.7.121:9092
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.latency
+2019-01-23 conn.py[line:257] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: creating new socket
+2019-01-23 conn.py[line:303] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: setting socket option (6, 1, 1)
+2019-01-23 conn.py[line:309] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: connecting to 192.168.7.121:9092
+2019-01-23 client_async.py[line:296] Node 0 connected
+2019-01-23 conn.py[line:1006] Broker version identifed as 0.11.0
+2019-01-23 conn.py[line:1008] Set configuration api_version=(0, 11, 0) to skip auto check_version requests on startup
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-fetched
+2019-01-23 metrics.py[line:156] Added sensor with name records-fetched
+2019-01-23 metrics.py[line:156] Added sensor with name fetch-latency
+2019-01-23 metrics.py[line:156] Added sensor with name records-lag
+2019-01-23 metrics.py[line:156] Added sensor with name fetch-throttle-time
+2019-01-23 metrics.py[line:156] Added sensor with name heartbeat-latency
+2019-01-23 metrics.py[line:156] Added sensor with name join-latency
+2019-01-23 metrics.py[line:156] Added sensor with name sync-latency
+2019-01-23 consumer.py[line:104] group_id is None: disabling auto-commit.
+2019-01-23 metrics.py[line:156] Added sensor with name commit-latency
+2019-01-23 subscription_state.py[line:172] Updating subscribed topics to: ('test',)
+2019-01-23 client_async.py[line:745] Sending metadata request MetadataRequest_v1(topics=['test']) to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 3: MetadataRequest_v1(topics=['test'])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 3: MetadataResponse_v1(brokers=[(node_id=0, host='192.168.7.121', port=9092, rack=None)], controller_id=0, topics=[(error_code=0, topic='test', is_internal=False, partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])])])
+2019-01-23 cluster.py[line:289] Updated cluster metadata to ClusterMetadata(brokers: 1, topics: 1, groups: 0)
+2019-01-23 subscription_state.py[line:258] Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+2019-01-23 fetcher.py[line:229] Resetting offset for partition TopicPartition(topic='test', partition=0) to latest offset.
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 4: OffsetRequest_v1(replica_id=-1, topics=[(topic='test', partitions=[(partition=0, timestamp=-1)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 4: OffsetResponse_v1(topics=[(topic='test', partitions=[(partition=0, error_code=0, timestamp=-1, offset=110)])])
+2019-01-23 fetcher.py[line:736] Handling ListOffsetResponse response for TopicPartition(topic='test', partition=0). Fetched offset 110, timestamp -1
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 5: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 5: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.bytes-fetched
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.records-fetched
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 6: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 6: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 7: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 7: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 8: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 8: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 9: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 9: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 10: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 10: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 11: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 11: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 12: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 12: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 13: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 13: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 14: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 14: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 15: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 15: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 16: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 16: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 17: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 17: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 18: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 18: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 19: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 19: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 20: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 20: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 21: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 21: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 22: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 22: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 23: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 23: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 24: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 24: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 25: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 25: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 26: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 26: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 27: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 27: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 28: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 28: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 29: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 29: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 30: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 30: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 31: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 31: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=110, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 110
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 32: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=110, max_bytes=1048576)])])
+2019-01-23 kafka.py[line:312] Starting the Kafka producer
+2019-01-23 metrics.py[line:156] Added sensor with name connections-closed
+2019-01-23 metrics.py[line:156] Added sensor with name connections-created
+2019-01-23 metrics.py[line:156] Added sensor with name select-time
+2019-01-23 metrics.py[line:156] Added sensor with name io-time
+2019-01-23 client_async.py[line:224] Bootstrapping cluster metadata from [('127.0.0.1', 9092, <AddressFamily.AF_INET: 2>)]
+2019-01-23 client_async.py[line:241] Attempting to bootstrap via node at 127.0.0.1:9092
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-sent-received
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name request-latency
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.latency
+2019-01-23 conn.py[line:257] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: creating new socket
+2019-01-23 conn.py[line:303] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: setting socket option (6, 1, 1)
+2019-01-23 conn.py[line:309] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+2019-01-23 conn.py[line:331] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: established TCP connection
+2019-01-23 conn.py[line:340] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: Connection complete.
+2019-01-23 client_async.py[line:296] Node bootstrap connected
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092> Request 1: MetadataRequest_v0(topics=[])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092> Response 1: MetadataResponse_v0(brokers=[(node_id=0, host='192.168.7.121', port=9092)], topics=[(error_code=0, topic='__consumer_offsets', partitions=[(error_code=0, partition=23, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=41, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=32, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=8, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=17, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=44, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=35, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=26, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=11, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=29, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=38, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=47, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=20, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=2, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=5, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=14, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=46, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=49, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=40, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=4, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=13, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=22, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=31, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=16, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=7, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=43, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=25, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=34, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=10, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=37, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=1, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=19, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=28, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=45, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=36, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=27, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=9, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=18, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=21, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=48, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=12, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=3, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=30, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=39, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=15, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=42, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=24, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=33, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=6, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=0, leader=0, replicas=[0], isr=[0])]), (error_code=0, topic='test', partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])])])
+2019-01-23 cluster.py[line:289] Updated cluster metadata to ClusterMetadata(brokers: 1, topics: 2, groups: 0)
+2019-01-23 client_async.py[line:263] Bootstrap succeeded: found 1 brokers and 2 topics.
+2019-01-23 conn.py[line:628] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: Closing connection. 
+2019-01-23 conn.py[line:610] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: reconnect backoff 0.04239378386371889 after 1 failures
+2019-01-23 client_async.py[line:346] Initiating connection to node 0 at 192.168.7.121:9092
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.latency
+2019-01-23 conn.py[line:257] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: creating new socket
+2019-01-23 conn.py[line:303] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: setting socket option (6, 1, 1)
+2019-01-23 conn.py[line:309] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: connecting to 192.168.7.121:9092
+2019-01-23 client_async.py[line:296] Node 0 connected
+2019-01-23 conn.py[line:1006] Broker version identifed as 0.11.0
+2019-01-23 conn.py[line:1008] Set configuration api_version=(0, 11, 0) to skip auto check_version requests on startup
+2019-01-23 metrics.py[line:156] Added sensor with name bufferpool-wait-time
+2019-01-23 metrics.py[line:156] Added sensor with name batch-size
+2019-01-23 metrics.py[line:156] Added sensor with name compression-rate
+2019-01-23 metrics.py[line:156] Added sensor with name queue-time
+2019-01-23 metrics.py[line:156] Added sensor with name produce-throttle-time
+2019-01-23 metrics.py[line:156] Added sensor with name records-per-request
+2019-01-23 metrics.py[line:156] Added sensor with name bytes
+2019-01-23 metrics.py[line:156] Added sensor with name record-retries
+2019-01-23 metrics.py[line:156] Added sensor with name errors
+2019-01-23 metrics.py[line:156] Added sensor with name record-size-max
+2019-01-23 sender.py[line:55] Starting Kafka producer I/O thread.
+2019-01-23 kafka.py[line:370] Kafka producer started
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c0\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 client_async.py[line:745] Sending metadata request MetadataRequest_v1(topics=['test']) to node 0
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 3: MetadataRequest_v1(topics=['test'])
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 3: MetadataResponse_v1(brokers=[(node_id=0, host='192.168.7.121', port=9092, rack=None)], controller_id=0, topics=[(error_code=0, topic='test', is_internal=False, partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])])])
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c0\u6761\u4fe1\u606f"}
+2019-01-23 cluster.py[line:289] Updated cluster metadata to ClusterMetadata(brokers: 1, topics: 1, groups: 0)
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.records-per-batch
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.bytes
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.compression-rate
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.record-retries
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.record-errors
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 4: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x101d38e08>)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 4: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=110, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=110, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 110 and error None.
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c1\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 32: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=111, message_set=['(offset=110, message=200)', '(offset=None, message=None)'])])])
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 fetcher.py[line:884] Adding fetched record for partition TopicPartition(topic='test', partition=0) with offset 110 to buffered record list
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c1\u6761\u4fe1\u606f"}
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 5: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x101d38d58>)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 5: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=111, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=111, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 111 and error None.
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c2\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c2\u6761\u4fe1\u606f"}
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 6: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x101d38e60>)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 6: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=112, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=112, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 112 and error None.
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c3\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c3\u6761\u4fe1\u606f"}
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 7: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x101d38eb8>)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 7: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=113, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=113, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 113 and error None.
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c4\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c4\u6761\u4fe1\u606f"}
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 8: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x101d38f10>)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 8: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=114, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=114, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 114 and error None.
+2019-01-23 kafka.py[line:574] Flushing accumulated records in producer.
+2019-01-23 kafka.py[line:423] Closing the Kafka producer with 0 secs timeout.
+2019-01-23 kafka.py[line:443] Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2019-01-23 sender.py[line:64] Beginning shutdown of Kafka producer I/O thread, sending remaining records.
+2019-01-23 conn.py[line:628] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: Closing connection. 
+2019-01-23 conn.py[line:610] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: reconnect backoff 0.05752725756334842 after 1 failures
+2019-01-23 sender.py[line:88] Shutdown of Kafka producer I/O thread has completed.
+2019-01-23 kafka.py[line:459] The Kafka producer has closed.
+2019-01-23 metrics.py[line:156] Added sensor with name connections-closed
+2019-01-23 metrics.py[line:156] Added sensor with name connections-created
+2019-01-23 metrics.py[line:156] Added sensor with name select-time
+2019-01-23 metrics.py[line:156] Added sensor with name io-time
+2019-01-23 client_async.py[line:224] Bootstrapping cluster metadata from [('127.0.0.1', 9092, <AddressFamily.AF_INET: 2>)]
+2019-01-23 client_async.py[line:241] Attempting to bootstrap via node at 127.0.0.1:9092
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-sent-received
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name request-latency
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.latency
+2019-01-23 conn.py[line:257] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: creating new socket
+2019-01-23 conn.py[line:303] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: setting socket option (6, 1, 1)
+2019-01-23 conn.py[line:309] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+2019-01-23 conn.py[line:331] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: established TCP connection
+2019-01-23 conn.py[line:340] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: Connection complete.
+2019-01-23 client_async.py[line:296] Node bootstrap connected
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092> Request 1: MetadataRequest_v0(topics=[])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092> Response 1: MetadataResponse_v0(brokers=[(node_id=0, host='192.168.7.121', port=9092)], topics=[(error_code=0, topic='__consumer_offsets', partitions=[(error_code=0, partition=23, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=41, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=32, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=8, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=17, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=44, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=35, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=26, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=11, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=29, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=38, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=47, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=20, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=2, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=5, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=14, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=46, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=49, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=40, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=4, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=13, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=22, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=31, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=16, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=7, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=43, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=25, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=34, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=10, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=37, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=1, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=19, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=28, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=45, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=36, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=27, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=9, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=18, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=21, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=48, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=12, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=3, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=30, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=39, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=15, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=42, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=24, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=33, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=6, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=0, leader=0, replicas=[0], isr=[0])]), (error_code=0, topic='test', partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])])])
+2019-01-23 cluster.py[line:289] Updated cluster metadata to ClusterMetadata(brokers: 1, topics: 2, groups: 0)
+2019-01-23 client_async.py[line:263] Bootstrap succeeded: found 1 brokers and 2 topics.
+2019-01-23 conn.py[line:628] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: Closing connection. 
+2019-01-23 conn.py[line:610] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: reconnect backoff 0.04310037027701864 after 1 failures
+2019-01-23 client_async.py[line:346] Initiating connection to node 0 at 192.168.7.121:9092
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.latency
+2019-01-23 conn.py[line:257] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: creating new socket
+2019-01-23 conn.py[line:303] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: setting socket option (6, 1, 1)
+2019-01-23 conn.py[line:309] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: connecting to 192.168.7.121:9092
+2019-01-23 client_async.py[line:296] Node 0 connected
+2019-01-23 conn.py[line:1006] Broker version identifed as 0.11.0
+2019-01-23 conn.py[line:1008] Set configuration api_version=(0, 11, 0) to skip auto check_version requests on startup
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-fetched
+2019-01-23 metrics.py[line:156] Added sensor with name records-fetched
+2019-01-23 metrics.py[line:156] Added sensor with name fetch-latency
+2019-01-23 metrics.py[line:156] Added sensor with name records-lag
+2019-01-23 metrics.py[line:156] Added sensor with name fetch-throttle-time
+2019-01-23 metrics.py[line:156] Added sensor with name heartbeat-latency
+2019-01-23 metrics.py[line:156] Added sensor with name join-latency
+2019-01-23 metrics.py[line:156] Added sensor with name sync-latency
+2019-01-23 consumer.py[line:104] group_id is None: disabling auto-commit.
+2019-01-23 metrics.py[line:156] Added sensor with name commit-latency
+2019-01-23 subscription_state.py[line:172] Updating subscribed topics to: ('test',)
+2019-01-23 client_async.py[line:745] Sending metadata request MetadataRequest_v1(topics=['test']) to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 3: MetadataRequest_v1(topics=['test'])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 3: MetadataResponse_v1(brokers=[(node_id=0, host='192.168.7.121', port=9092, rack=None)], controller_id=0, topics=[(error_code=0, topic='test', is_internal=False, partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])])])
+2019-01-23 cluster.py[line:289] Updated cluster metadata to ClusterMetadata(brokers: 1, topics: 1, groups: 0)
+2019-01-23 subscription_state.py[line:258] Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+2019-01-23 fetcher.py[line:229] Resetting offset for partition TopicPartition(topic='test', partition=0) to latest offset.
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 4: OffsetRequest_v1(replica_id=-1, topics=[(topic='test', partitions=[(partition=0, timestamp=-1)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 4: OffsetResponse_v1(topics=[(topic='test', partitions=[(partition=0, error_code=0, timestamp=-1, offset=115)])])
+2019-01-23 fetcher.py[line:736] Handling ListOffsetResponse response for TopicPartition(topic='test', partition=0). Fetched offset 115, timestamp -1
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 115
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 5: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=115, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 5: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=115, message_set=[])])])
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.bytes-fetched
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.records-fetched
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 115
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 6: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=115, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 6: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=115, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 115
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 7: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=115, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 7: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=115, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 115
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 8: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=115, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 8: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=115, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 115
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 9: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=115, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 9: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=115, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 115
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 10: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=115, max_bytes=1048576)])])
+2019-01-23 kafka.py[line:312] Starting the Kafka producer
+2019-01-23 metrics.py[line:156] Added sensor with name connections-closed
+2019-01-23 metrics.py[line:156] Added sensor with name connections-created
+2019-01-23 metrics.py[line:156] Added sensor with name select-time
+2019-01-23 metrics.py[line:156] Added sensor with name io-time
+2019-01-23 client_async.py[line:224] Bootstrapping cluster metadata from [('127.0.0.1', 9092, <AddressFamily.AF_INET: 2>)]
+2019-01-23 client_async.py[line:241] Attempting to bootstrap via node at 127.0.0.1:9092
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-sent-received
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name request-latency
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.latency
+2019-01-23 conn.py[line:257] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: creating new socket
+2019-01-23 conn.py[line:303] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: setting socket option (6, 1, 1)
+2019-01-23 conn.py[line:309] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+2019-01-23 conn.py[line:331] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: established TCP connection
+2019-01-23 conn.py[line:340] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: Connection complete.
+2019-01-23 client_async.py[line:296] Node bootstrap connected
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092> Request 1: MetadataRequest_v0(topics=[])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092> Response 1: MetadataResponse_v0(brokers=[(node_id=0, host='192.168.7.121', port=9092)], topics=[(error_code=0, topic='__consumer_offsets', partitions=[(error_code=0, partition=23, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=41, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=32, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=8, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=17, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=44, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=35, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=26, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=11, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=29, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=38, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=47, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=20, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=2, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=5, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=14, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=46, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=49, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=40, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=4, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=13, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=22, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=31, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=16, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=7, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=43, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=25, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=34, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=10, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=37, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=1, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=19, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=28, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=45, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=36, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=27, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=9, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=18, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=21, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=48, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=12, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=3, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=30, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=39, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=15, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=42, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=24, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=33, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=6, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=0, leader=0, replicas=[0], isr=[0])]), (error_code=0, topic='test', partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])])])
+2019-01-23 cluster.py[line:289] Updated cluster metadata to ClusterMetadata(brokers: 1, topics: 2, groups: 0)
+2019-01-23 client_async.py[line:263] Bootstrap succeeded: found 1 brokers and 2 topics.
+2019-01-23 conn.py[line:628] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: Closing connection. 
+2019-01-23 conn.py[line:610] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: reconnect backoff 0.04372053021604284 after 1 failures
+2019-01-23 client_async.py[line:346] Initiating connection to node 0 at 192.168.7.121:9092
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.latency
+2019-01-23 conn.py[line:257] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: creating new socket
+2019-01-23 conn.py[line:303] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: setting socket option (6, 1, 1)
+2019-01-23 conn.py[line:309] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: connecting to 192.168.7.121:9092
+2019-01-23 client_async.py[line:296] Node 0 connected
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 10: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=115, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 115
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 11: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=115, max_bytes=1048576)])])
+2019-01-23 conn.py[line:1006] Broker version identifed as 0.11.0
+2019-01-23 conn.py[line:1008] Set configuration api_version=(0, 11, 0) to skip auto check_version requests on startup
+2019-01-23 metrics.py[line:156] Added sensor with name bufferpool-wait-time
+2019-01-23 metrics.py[line:156] Added sensor with name batch-size
+2019-01-23 metrics.py[line:156] Added sensor with name compression-rate
+2019-01-23 metrics.py[line:156] Added sensor with name queue-time
+2019-01-23 metrics.py[line:156] Added sensor with name produce-throttle-time
+2019-01-23 metrics.py[line:156] Added sensor with name records-per-request
+2019-01-23 metrics.py[line:156] Added sensor with name bytes
+2019-01-23 metrics.py[line:156] Added sensor with name record-retries
+2019-01-23 metrics.py[line:156] Added sensor with name errors
+2019-01-23 metrics.py[line:156] Added sensor with name record-size-max
+2019-01-23 sender.py[line:55] Starting Kafka producer I/O thread.
+2019-01-23 kafka.py[line:370] Kafka producer started
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c0\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 client_async.py[line:745] Sending metadata request MetadataRequest_v1(topics=['test']) to node 0
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 3: MetadataRequest_v1(topics=['test'])
+2019-01-23 sender.py[line:109] Node 0 not ready; delaying produce of accumulated batch
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 3: MetadataResponse_v1(brokers=[(node_id=0, host='192.168.7.121', port=9092, rack=None)], controller_id=0, topics=[(error_code=0, topic='test', is_internal=False, partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])])])
+2019-01-23 cluster.py[line:289] Updated cluster metadata to ClusterMetadata(brokers: 1, topics: 1, groups: 0)
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.records-per-batch
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.bytes
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.compression-rate
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.record-retries
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.record-errors
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 4: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x103c2fe08>)])])
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c0\u6761\u4fe1\u606f"}
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 4: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=115, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=115, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 115 and error None.
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 11: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=116, message_set=['(offset=115, message=200)', '(offset=None, message=None)'])])])
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c1\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 fetcher.py[line:884] Adding fetched record for partition TopicPartition(topic='test', partition=0) with offset 115 to buffered record list
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c1\u6761\u4fe1\u606f"}
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 5: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x103c2fd58>)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 5: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=116, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=116, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 116 and error None.
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c2\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c2\u6761\u4fe1\u606f"}
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 6: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x103c2fe60>)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 6: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=117, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=117, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 117 and error None.
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c3\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c3\u6761\u4fe1\u606f"}
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 7: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x103c2feb8>)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 7: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=118, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=118, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 118 and error None.
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c4\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 8: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x103c2ff10>)])])
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c4\u6761\u4fe1\u606f"}
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 8: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=119, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=119, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 119 and error None.
+2019-01-23 kafka.py[line:574] Flushing accumulated records in producer.
+2019-01-23 kafka.py[line:423] Closing the Kafka producer with 0 secs timeout.
+2019-01-23 kafka.py[line:443] Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2019-01-23 sender.py[line:64] Beginning shutdown of Kafka producer I/O thread, sending remaining records.
+2019-01-23 conn.py[line:628] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: Closing connection. 
+2019-01-23 conn.py[line:610] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: reconnect backoff 0.04083450141276226 after 1 failures
+2019-01-23 sender.py[line:88] Shutdown of Kafka producer I/O thread has completed.
+2019-01-23 kafka.py[line:459] The Kafka producer has closed.
+2019-01-23 metrics.py[line:156] Added sensor with name connections-closed
+2019-01-23 metrics.py[line:156] Added sensor with name connections-created
+2019-01-23 metrics.py[line:156] Added sensor with name select-time
+2019-01-23 metrics.py[line:156] Added sensor with name io-time
+2019-01-23 client_async.py[line:224] Bootstrapping cluster metadata from [('127.0.0.1', 9092, <AddressFamily.AF_INET: 2>)]
+2019-01-23 client_async.py[line:241] Attempting to bootstrap via node at 127.0.0.1:9092
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-sent-received
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name request-latency
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.latency
+2019-01-23 conn.py[line:257] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: creating new socket
+2019-01-23 conn.py[line:303] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: setting socket option (6, 1, 1)
+2019-01-23 conn.py[line:309] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+2019-01-23 conn.py[line:331] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: established TCP connection
+2019-01-23 conn.py[line:340] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: Connection complete.
+2019-01-23 client_async.py[line:296] Node bootstrap connected
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092> Request 1: MetadataRequest_v0(topics=[])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092> Response 1: MetadataResponse_v0(brokers=[(node_id=0, host='192.168.7.121', port=9092)], topics=[(error_code=0, topic='__consumer_offsets', partitions=[(error_code=0, partition=23, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=41, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=32, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=8, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=17, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=44, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=35, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=26, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=11, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=29, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=38, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=47, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=20, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=2, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=5, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=14, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=46, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=49, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=40, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=4, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=13, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=22, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=31, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=16, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=7, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=43, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=25, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=34, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=10, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=37, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=1, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=19, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=28, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=45, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=36, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=27, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=9, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=18, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=21, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=48, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=12, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=3, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=30, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=39, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=15, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=42, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=24, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=33, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=6, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=0, leader=0, replicas=[0], isr=[0])]), (error_code=0, topic='test', partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])])])
+2019-01-23 cluster.py[line:289] Updated cluster metadata to ClusterMetadata(brokers: 1, topics: 2, groups: 0)
+2019-01-23 client_async.py[line:263] Bootstrap succeeded: found 1 brokers and 2 topics.
+2019-01-23 conn.py[line:628] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: Closing connection. 
+2019-01-23 conn.py[line:610] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: reconnect backoff 0.05593599788064678 after 1 failures
+2019-01-23 client_async.py[line:346] Initiating connection to node 0 at 192.168.7.121:9092
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.latency
+2019-01-23 conn.py[line:257] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: creating new socket
+2019-01-23 conn.py[line:303] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: setting socket option (6, 1, 1)
+2019-01-23 conn.py[line:309] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: connecting to 192.168.7.121:9092
+2019-01-23 client_async.py[line:296] Node 0 connected
+2019-01-23 conn.py[line:1006] Broker version identifed as 0.11.0
+2019-01-23 conn.py[line:1008] Set configuration api_version=(0, 11, 0) to skip auto check_version requests on startup
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-fetched
+2019-01-23 metrics.py[line:156] Added sensor with name records-fetched
+2019-01-23 metrics.py[line:156] Added sensor with name fetch-latency
+2019-01-23 metrics.py[line:156] Added sensor with name records-lag
+2019-01-23 metrics.py[line:156] Added sensor with name fetch-throttle-time
+2019-01-23 metrics.py[line:156] Added sensor with name heartbeat-latency
+2019-01-23 metrics.py[line:156] Added sensor with name join-latency
+2019-01-23 metrics.py[line:156] Added sensor with name sync-latency
+2019-01-23 consumer.py[line:104] group_id is None: disabling auto-commit.
+2019-01-23 metrics.py[line:156] Added sensor with name commit-latency
+2019-01-23 subscription_state.py[line:172] Updating subscribed topics to: ('test',)
+2019-01-23 client_async.py[line:745] Sending metadata request MetadataRequest_v1(topics=['test']) to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 3: MetadataRequest_v1(topics=['test'])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 3: MetadataResponse_v1(brokers=[(node_id=0, host='192.168.7.121', port=9092, rack=None)], controller_id=0, topics=[(error_code=0, topic='test', is_internal=False, partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])])])
+2019-01-23 cluster.py[line:289] Updated cluster metadata to ClusterMetadata(brokers: 1, topics: 1, groups: 0)
+2019-01-23 subscription_state.py[line:258] Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+2019-01-23 fetcher.py[line:229] Resetting offset for partition TopicPartition(topic='test', partition=0) to latest offset.
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 4: OffsetRequest_v1(replica_id=-1, topics=[(topic='test', partitions=[(partition=0, timestamp=-1)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 4: OffsetResponse_v1(topics=[(topic='test', partitions=[(partition=0, error_code=0, timestamp=-1, offset=120)])])
+2019-01-23 fetcher.py[line:736] Handling ListOffsetResponse response for TopicPartition(topic='test', partition=0). Fetched offset 120, timestamp -1
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 120
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 5: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=120, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 5: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=120, message_set=[])])])
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.bytes-fetched
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.records-fetched
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 120
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 6: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=120, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 6: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=120, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 120
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 7: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=120, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 7: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=120, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 120
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 8: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=120, max_bytes=1048576)])])
+2019-01-23 kafka.py[line:312] Starting the Kafka producer
+2019-01-23 metrics.py[line:156] Added sensor with name connections-closed
+2019-01-23 metrics.py[line:156] Added sensor with name connections-created
+2019-01-23 metrics.py[line:156] Added sensor with name select-time
+2019-01-23 metrics.py[line:156] Added sensor with name io-time
+2019-01-23 client_async.py[line:224] Bootstrapping cluster metadata from [('127.0.0.1', 9092, <AddressFamily.AF_INET: 2>)]
+2019-01-23 client_async.py[line:241] Attempting to bootstrap via node at 127.0.0.1:9092
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-sent-received
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name request-latency
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name node-bootstrap.latency
+2019-01-23 conn.py[line:257] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: creating new socket
+2019-01-23 conn.py[line:303] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: setting socket option (6, 1, 1)
+2019-01-23 conn.py[line:309] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+2019-01-23 conn.py[line:331] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: established TCP connection
+2019-01-23 conn.py[line:340] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: Connection complete.
+2019-01-23 client_async.py[line:296] Node bootstrap connected
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092> Request 1: MetadataRequest_v0(topics=[])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092> Response 1: MetadataResponse_v0(brokers=[(node_id=0, host='192.168.7.121', port=9092)], topics=[(error_code=0, topic='__consumer_offsets', partitions=[(error_code=0, partition=23, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=41, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=32, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=8, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=17, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=44, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=35, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=26, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=11, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=29, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=38, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=47, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=20, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=2, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=5, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=14, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=46, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=49, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=40, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=4, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=13, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=22, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=31, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=16, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=7, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=43, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=25, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=34, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=10, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=37, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=1, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=19, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=28, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=45, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=36, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=27, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=9, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=18, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=21, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=48, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=12, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=3, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=30, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=39, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=15, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=42, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=24, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=33, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=6, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=0, leader=0, replicas=[0], isr=[0])]), (error_code=0, topic='test', partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])])])
+2019-01-23 cluster.py[line:289] Updated cluster metadata to ClusterMetadata(brokers: 1, topics: 2, groups: 0)
+2019-01-23 client_async.py[line:263] Bootstrap succeeded: found 1 brokers and 2 topics.
+2019-01-23 conn.py[line:628] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: Closing connection. 
+2019-01-23 conn.py[line:610] <BrokerConnection node_id=bootstrap host=127.0.0.1/127.0.0.1 port=9092>: reconnect backoff 0.05778450467983923 after 1 failures
+2019-01-23 client_async.py[line:346] Initiating connection to node 0 at 192.168.7.121:9092
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.bytes-sent
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.bytes-received
+2019-01-23 metrics.py[line:156] Added sensor with name node-0.latency
+2019-01-23 conn.py[line:257] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: creating new socket
+2019-01-23 conn.py[line:303] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: setting socket option (6, 1, 1)
+2019-01-23 conn.py[line:309] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: connecting to 192.168.7.121:9092
+2019-01-23 client_async.py[line:296] Node 0 connected
+2019-01-23 conn.py[line:1006] Broker version identifed as 0.11.0
+2019-01-23 conn.py[line:1008] Set configuration api_version=(0, 11, 0) to skip auto check_version requests on startup
+2019-01-23 metrics.py[line:156] Added sensor with name bufferpool-wait-time
+2019-01-23 metrics.py[line:156] Added sensor with name batch-size
+2019-01-23 metrics.py[line:156] Added sensor with name compression-rate
+2019-01-23 metrics.py[line:156] Added sensor with name queue-time
+2019-01-23 metrics.py[line:156] Added sensor with name produce-throttle-time
+2019-01-23 metrics.py[line:156] Added sensor with name records-per-request
+2019-01-23 metrics.py[line:156] Added sensor with name bytes
+2019-01-23 metrics.py[line:156] Added sensor with name record-retries
+2019-01-23 metrics.py[line:156] Added sensor with name errors
+2019-01-23 metrics.py[line:156] Added sensor with name record-size-max
+2019-01-23 sender.py[line:55] Starting Kafka producer I/O thread.
+2019-01-23 kafka.py[line:370] Kafka producer started
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c0\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 sender.py[line:109] Node 0 not ready; delaying produce of accumulated batch
+2019-01-23 client_async.py[line:745] Sending metadata request MetadataRequest_v1(topics=['test']) to node 0
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c0\u6761\u4fe1\u606f"}
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 3: MetadataRequest_v1(topics=['test'])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 3: MetadataResponse_v1(brokers=[(node_id=0, host='192.168.7.121', port=9092, rack=None)], controller_id=0, topics=[(error_code=0, topic='test', is_internal=False, partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])])])
+2019-01-23 cluster.py[line:289] Updated cluster metadata to ClusterMetadata(brokers: 1, topics: 1, groups: 0)
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.records-per-batch
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.bytes
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.compression-rate
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.record-retries
+2019-01-23 metrics.py[line:156] Added sensor with name topic.test.record-errors
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 4: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x10800de08>)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 8: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=121, message_set=['(offset=120, message=200)', '(offset=None, message=None)'])])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 4: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=120, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 fetcher.py[line:884] Adding fetched record for partition TopicPartition(topic='test', partition=0) with offset 120 to buffered record list
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=120, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 120 and error None.
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c1\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c1\u6761\u4fe1\u606f"}
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 5: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x10800dd58>)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 5: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=121, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=121, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 121 and error None.
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c2\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 6: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x10800de60>)])])
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c2\u6761\u4fe1\u606f"}
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 6: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=122, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=122, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 122 and error None.
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c3\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c3\u6761\u4fe1\u606f"}
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 7: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x10800deb8>)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 7: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=123, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=123, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 123 and error None.
+2019-01-23 kafka.py[line:525] Sending (key=b'test' value=b'{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\\u6d4b\\u8bd5\\u4e0b\\u7684\\u7b2c4\\u6761\\u4fe1\\u606f"}') to TopicPartition(topic='test', partition=0)
+2019-01-23 record_accumulator.py[line:246] Allocating a new 16384 byte message buffer for TopicPartition(topic='test', partition=0)
+2019-01-23 kafka.py[line:532] Waking up the sender since TopicPartition(topic='test', partition=0) is either full or getting a new batch
+2019-01-23 ProducerHelper.py[line:42] send json data: topic:test,key:b'test',value:{"db_config": {"database": "test_1", "host": "localhost", "user": "root", "password": "password"}, "table": "msg", "msg": "\u6d4b\u8bd5\u4e0b\u7684\u7b2c4\u6761\u4fe1\u606f"}
+2019-01-23 sender.py[line:140] Nodes with data ready to send: {0}
+2019-01-23 sender.py[line:141] Created 1 produce requests: {0: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])}
+2019-01-23 sender.py[line:146] Sending Produce Request: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(partition=0, messages=['(offset=0, message=200)'])])])
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 8: ProduceRequest_v2(required_acks=1, timeout=30000, topics=[(topic='test', partitions=[(0, <_io.BytesIO object at 0x10800df10>)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 8: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=124, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 sender.py[line:190] Parsing produce response: ProduceResponse_v2(topics=[(topic='test', partitions=[(partition=0, error_code=0, offset=124, timestamp=-1)])], throttle_time_ms=0)
+2019-01-23 record_accumulator.py[line:77] Produced messages to topic-partition TopicPartition(topic='test', partition=0) with base offset 124 and error None.
+2019-01-23 kafka.py[line:574] Flushing accumulated records in producer.
+2019-01-23 kafka.py[line:423] Closing the Kafka producer with 0 secs timeout.
+2019-01-23 kafka.py[line:443] Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2019-01-23 sender.py[line:64] Beginning shutdown of Kafka producer I/O thread, sending remaining records.
+2019-01-23 conn.py[line:628] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: Closing connection. 
+2019-01-23 conn.py[line:610] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092>: reconnect backoff 0.04204083835089429 after 1 failures
+2019-01-23 sender.py[line:88] Shutdown of Kafka producer I/O thread has completed.
+2019-01-23 kafka.py[line:459] The Kafka producer has closed.
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 121
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 9: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=121, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 9: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=125, message_set=['(offset=121, message=200)', '(offset=122, message=200)', '(offset=123, message=200)', '(offset=124, message=200)', '(offset=None, message=None)'])])])
+2019-01-23 fetcher.py[line:884] Adding fetched record for partition TopicPartition(topic='test', partition=0) with offset 121 to buffered record list
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 125
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 10: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=125, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 10: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=125, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 125
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 11: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=125, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 11: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=125, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 125
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 12: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=125, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 12: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=125, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 125
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 13: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=125, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 13: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=125, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 125
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 14: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=125, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 14: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=125, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 125
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 15: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=125, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 15: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=125, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 125
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 16: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=125, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 16: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=125, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 125
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 17: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=125, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 17: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=125, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 125
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 18: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=125, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 18: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=125, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 125
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 19: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=125, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 19: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=125, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 125
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 20: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=125, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 20: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=125, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 125
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 21: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=125, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 21: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=125, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 125
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 22: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=125, max_bytes=1048576)])])
+2019-01-23 conn.py[line:875] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Response 22: FetchResponse_v3(throttle_time_ms=0, topics=[(topics='test', partitions=[(partition=0, error_code=0, highwater_offset=125, message_set=[])])])
+2019-01-23 fetcher.py[line:800] Adding fetch request for partition TopicPartition(topic='test', partition=0) at offset 125
+2019-01-23 fetcher.py[line:126] Sending FetchRequest to node 0
+2019-01-23 conn.py[line:693] <BrokerConnection node_id=0 host=192.168.7.121/192.168.7.121 port=9092> Request 23: FetchRequest_v3(replica_id=-1, max_wait_time=500, min_bytes=1, max_bytes=52428800, topics=[(topic='test', partitions=[(partition=0, offset=125, max_bytes=1048576)])])
