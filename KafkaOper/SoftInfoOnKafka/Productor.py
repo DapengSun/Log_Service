@@ -7,16 +7,17 @@ import datetime
 # sys.path.append('..')
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 from KafkaHelper.ProducerHelper import Producer
-from KafkaHelper import SoftInfoOnTopic
+from KafkaOper.SoftInfoOnKafka import SoftInfoOnTopic
+from KafkaOper.SoftInfoOnKafka import KAFKA_HOST,KAFKA_PORT
 
 def produce():
     softInfoOnModel = {
         'Id':'testid',
         'Mtype':0,
         'MtypeName':'电子图版',
-        'ProdId':'1002',
+        'ProdId':1002,
         'Prodname':'Caxa电子图版',
-        'IP':'106.37.206.2',
+        'IP':'119.108.104.78',
         'InnerIP':'192.168.7.121',
         'Provice':'',
         'City':'',
@@ -37,8 +38,8 @@ def produce():
         'OSType':'MacOS'
     }
 
-    with Producer() as producer:
-        future = producer.send_json_data(topic=SoftInfoOnTopic,value=json.dumps(softInfoOnModel))
+    with Producer(KAFKA_HOST,KAFKA_PORT) as producer:
+        future = producer.send_json_data(topic=SoftInfoOnTopic,value=json.dumps(softInfoOnModel,ensure_ascii=False))
         try:
             res = future.get(timeout=10)
         except Exception as ex:

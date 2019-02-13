@@ -14,7 +14,7 @@ class Customer(object):
     '''
     Kafka消费者
     '''
-    def __init__(self,*topics,kafkaHost = None,kafkaPort = None):
+    def __init__(self,kafkaHost = None,kafkaPort = None):
         '''
         初始化参数
         :param kafkaHost: 指定主机名称
@@ -29,13 +29,14 @@ class Customer(object):
         else:
             self.kafkaPort = KAFKA_PORT
 
-    def consumer_topic_msg(self,*topics):
+    def consumer_topic_msg(self,*topics,group_id=None):
         '''
         消费topic中消息
         :param topics: 消费的topics
         :return: 返回消费实体
         '''
-        customer = KafkaConsumer(*topics,bootstrap_servers=[f'{self.kafkaHost}:{self.kafkaPort}'])
+        # raise Exception('error')
+        customer = KafkaConsumer(*topics,group_id=group_id,bootstrap_servers=[f'{self.kafkaHost}:{self.kafkaPort}'])
         for msg in customer:
             value = json.loads(msg.value)
             # 获取消费信息 topic 分区等
