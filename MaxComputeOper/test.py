@@ -4,7 +4,7 @@ from odps import ODPS
 from odps.df import DataFrame
 from odps.types import Schema, Record
 
-odps = ODPS('LTAI1EH2QtJxMj4j', 'PtMa1T01Nq0y2da8SBl0FRMmgxjE8X', 'GyyStatistical',
+odps = ODPS('', 'PtMa1T01Nq0y2da8SBl0FRMmgxjE8X', 'GyyStatistical',
             endpoint='https://service.odps.aliyun.com/api')
 
 # 取到某个项目

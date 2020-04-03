@@ -13,7 +13,7 @@ from MaxComputeOper import SoftInfoOn_Table,SoftInfoOn_Project,SoftInfoClose_Tab
 from MaxComputeOper import MYSQL_HOST,MYSQL_PORT,MYSQL_USER,MYSQL_PASSWORD,MYSQL_DB
 from MaxComputeOper import SoftInfoOn_UsersStatisticTable,SoftInfoOn_LicenseStatisticTable
 
-odps = ODPS('LTAI1EH2QtJxMj4j', 'PtMa1T01Nq0y2da8SBl0FRMmgxjE8X', 'GyyStatistical',
+odps = ODPS('', 'PtMa1T01Nq0y2da8SBl0FRMmgxjE8X', 'GyyStatistical',
             endpoint='https://service.odps.aliyun.com/api')
 
 currentPath = os.path.dirname(__file__)

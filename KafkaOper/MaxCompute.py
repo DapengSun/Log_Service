@@ -6,7 +6,7 @@ from tablestore import WriteRetryPolicy
 import uuid
 
 # 初始化连接
-ots_client = OTSClient('https://GyyStatistical.cn-beijing.ots.aliyuncs.com', 'LTAI1EH2QtJxMj4j',
+ots_client = OTSClient('https://GyyStatistical.cn-beijing.ots.aliyuncs.com', '',
                        'PtMa1T01Nq0y2da8SBl0FRMmgxjE8X', 'GyyStatistical', logger_name='table_store.log',
                        retry_policy=WriteRetryPolicy())
 
